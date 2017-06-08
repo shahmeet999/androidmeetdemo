@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Newcalci</string>
+    <string name="title_activity_basic_demo">BasicActivityDemo</string>
+    <string name="title_activity_navigation_demo">NavigationDemo</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_whatsappdemo">whatsappdemo</string>
+    <string name="send_to">Send Whatsapp</string>
+    <string name="title_activity_main5_basic_">Main5Activity_basic_Activity</string>
+</resources>

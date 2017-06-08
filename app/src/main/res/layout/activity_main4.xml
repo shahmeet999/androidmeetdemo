@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.meet.newcalci.Main4Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter The Email Id"
+            android:inputType="textEmailAddress"
+            android:id="@+id/txtemailmain4"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter The Password"
+            android:inputType="textPassword"
+            android:id="@+id/txtpasswordmain4"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter The User Name"
+            android:inputType="textPersonName"
+            android:id="@+id/txtunmain4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Select the Gender"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/radiogenmalemain4"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:id="@+id/radiogenfemalemain4"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter The Mobile Number"
+        android:inputType="textPhonetic"
+        android:id="@+id/txtmnnomain4"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:paddingTop="260dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:background="#00c853"
+            android:id="@+id/btnsignupmain4"/>
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:background="#00c853"
+            android:id="@+id/btnbackmain4"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
